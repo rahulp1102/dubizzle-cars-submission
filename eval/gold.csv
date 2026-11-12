@@ -1,0 +1,21 @@
+listing_id,make,model,year,cash_price,cash_price_status,monthly_instalment,mileage_km,spec_region,warranty_status,transmission,colour,body_type,body_type_status,language,notes
+1,ferrari,f430,2007,,,,35711,US / American,,,,Coupe,inferred,en,US spec with phone/URLs to strip
+2,mercedes-benz,glc-class,2026,,,,0,GCC,confirmed,,Black,SUV,confirmed,en,0KM brand new coupe SUV
+3,ford,territory,2024,,,1430,,GCC,confirmed,Automatic,,SUV,inferred,en,Monthly trap 1430 and warranty km trap 100000
+4,chevrolet,malibu,2024,,,,,,,,,Sedan,inferred,ar,Arabic listing - no NLP
+5,haval,h9,2026,115750,confirmed,2040,18,GCC,confirmed,Automatic,,SUV,confirmed,en,Explicit cash price + two monthly options
+6,mercedes-benz,c-class,2021,106000,confirmed,1611,77820,GCC,,Automatic,Black,Sedan,inferred,en,Standalone AED line + Cars24 colour format
+7,audi,q8,2023,204999,confirmed,4000,89000,GCC,confirmed,Automatic,,SUV,confirmed,en,Duplicate group member + Selling Price
+12,mercedes-benz,c-class,2024,,,,1739,Japanese,,,,Sedan,inferred,en,Japan import + low km
+14,byd,han,2025,,,,,,,,,Sedan,confirmed,en,EV range 701KM trap must NOT be mileage
+15,mercedes-benz,v-class,2024,249000,confirmed,3580,17623,GCC,confirmed,,,Van,inferred,en,Last/Next service km traps vs 17623 actual km
+19,nissan,altima,2023,,,,83212,US / American,,Automatic,,Sedan,inferred,en,American specs
+23,bmw,m4,2022,329000,confirmed,4567,37062,GCC,confirmed,Automatic,,Convertible,confirmed,en,Speed km/h trap vs actual mileage
+26,bmw,m4,2022,234999,confirmed,3834,48377,,inferred,,Metallic Blue,Convertible,confirmed,en,Warranty Available must be inferred
+42,nissan,sunny,2023,25000,confirmed,550,83000,GCC,,,,Sedan,inferred,en,Dot thousands separators 25.000AED and 83.000KM
+51,tesla,model x,2018,85000,confirmed,1488,60123,GCC,,Automatic,,SUV,inferred,en,EV 1-speed direct drive + cash for 85000
+68,tova,j14,2025,,,,,,,,,Commercial,confirmed,en,Commercial chassis vehicle
+77,nissan,x-trail,2022,,,,,GCC,,Automatic,,SUV,confirmed,en,Salary trap AED 3000 WPS must be rejected
+86,toyota,urban cruiser,2025,69900,confirmed,1063,26130,GCC,,Automatic,Red,SUV,inferred,en,Condition report fee trap AED 369 rejected
+87,honda,cr-v,2021,,,1048,79000,GCC,,,White,SUV,confirmed,en,Truthful single Honda CR-V listing
+94,volkswagen,t-roc,2024,89900,confirmed,1380,39000,GCC,inferred,,,SUV,inferred,en,Space thousands separator AED 89 900
